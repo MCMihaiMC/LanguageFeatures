@@ -1,0 +1,8 @@
+﻿Project creation:
+-------------------------------------------------------------------------------
+dotnet new globaljson --sdk-version 6.0.101 --output LanguageFeatures
+dotnet new web --no-https --output LanguageFeatures --framework netcoreapp3.1
+dotnet new sln -o LanguageFeatures
+dotnet sln LanguageFeatures add LanguageFeatures
+
+===============================================================================
